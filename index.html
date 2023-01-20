@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <!---------------------------Fonts used in this App------------------------------------------------------>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-----------------------------JS text.js extension ---------------------------------------------->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--------------------------------Style Files ------------------------------------------>
+    <link
+      rel="stylesheet"
+      href="./Assets/CSS/bootstrap.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./Assets/CSS/all.min.css" type="text/css" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css" />
+
+    <!------------------------------WebSite Title ------------------------------------------>
+
+    <title>Gunjan Bajaj - Personal Portfolio Bootstrap Template</title>
+
+    <!-------------------------------Browser logo------------------------------------------->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://images.assetsdelivery.com/compings_v2/arbuzu/arbuzu1607/arbuzu160700035.jpg"
+    />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar-scrollSpy">
+    <!-- navbar -->
+    <nav id="navbar-scrollSpy"
+      class="nav navbar navbar-expand-md navbar-dark my-auto px-2 py-0 fixed-top"
+    >
+      <div class="container nav__container">
+        <a class="navbar-brand fw-bold" href="/index.html">DIGITAL PORTFOLIO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav mx-md-auto ms-lg-auto me-lg-0 text-capitalize text-center"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active pe-md-3 pe-lg-5 ps-0"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-md-3 pe-lg-5 ps-0" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-md-3 pe-lg-5 ps-0" href="#services"
+                >Expertise</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-md-3 pe-lg-5 ps-0" href="#portfolio"
+                >Interests & Education</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link pe-md-3 pe-lg-5 ps-0" href="#testimonial"
+                >Experiences</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-md-3 pe-lg-5 ps-0" href="#blog">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-0" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <header id="home">
+      <div class="home__container">
+        <div class="home__bgLayer">
+          <div
+            class="home__caption d-flex flex-column justify-content-center align-items-center h-100"
+          >
+            <h3 class="home__hello">Hello I'm</h3>
+            <h1 class="home__title text-sentencecase">GUNJAN BAJAJ</h1>
+            <h4 class="home__desc p-0 m-0"></h4>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- about -->
+    <section id="about" class="py-5">
+      <div class="about__container container my-5 py-3">
+        <div class="row g-1">
+          <div class="col-9 col-md-5 mx-auto mb-5 mb-md-0">
+            <div class="img__frame  mx-auto">
+              <div class="img__container position-relative overflow-hidden">
+                <img
+                  src="./Assets/img/profile.jpg"
+                  class="w-70 profile__img"
+                  alt="profile image"
+                />
+                <div class="profileImage__layer">
+                  <div
+                    class="h-100 d-flex justify-content-center align-items-center"
+                  >
+                    <a
+                      href="https://www.facebook.com/gunjan.bajaj.1884"
+                      target="_blank"
+                      style="font-family: FontAwesome"
+                      class="social__icon me-2"
+                    >
+                      <i class="fa-brands fa-facebook-f fa-lg px-2 py-2"></i
+                    ></a>
+                    <a href="https://twitter.com/B47734860Bajaj" target="_blank" class="social__icon me-2">
+                      <i class="fa-brands fa-twitter fa-lg px-2 py-2"></i
+                    ></a>
+                    <a href="https://www.linkedin.com/in/gunjan-bajaj-10510a1b3/" target="_blank" class="social__icon me-2">
+                      <i class="fa-brands fa-linkedin fa-lg px-2 py-2"></i
+                    ></a>
+                    <a href="https://github.com/bajajgunjan" target="_blank" class="social__icon me-2">
+                      <i class="fa-brands fa-github fa-lg px-2 py-2"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-9 col-md-7 mx-auto">
+            <h2 class="position-relative">Namaste,</h2>
+            <p class="lead">
+              Hi I am Gunjan Bajaj from Mumbai. Currentyly pursuing Bachelors in Buisness Administration 
+                  majoring in Business Analytics from CHRIST (Deemed to be University). 
+              Through the course of all the modules over the years I have developed 
+              analytical skills with the help of different programming languages.
+              I also have hands on experience towards Digital Marketing which lies as my key  
+              interest. I am here to help you with the challenges being faced by you in your business. 
+              Get to know me more I will be happy to help.
+              
+            </p>
+            <div class="profile__about" >
+              <ul class=" row row-cols-1 row-cols-2 px-2">
+                 <div class="col mb-1 px-0"><li><span> <b>Name:</b></span> Gunjan Bajaj</li></div>
+                  <div class="col mb-1 px-0"><li><span><b>Age:</b></span> 21 Year</li></div>
+                  <div class="col mb-1 px-0"><li><span><b>Location:</b></span> India, Mumbai</li></div>
+                  <div class="col mb-1 px-0"><li><span><b>E-mail:</b></span> <a href="#">gunjanbajaj2002@gmail.com</a></li></div>
+                  
+                  
+              </ul>
+              <div class="download__btn d-flex">
+                <button class="form__button my-4 p-3 d-flex justify-content-center align-items-center"><a href="https://drive.google.com/file/d/1coZiePXqnkHMC7AAh8EV7AO_QExluJeW/view?usp=sharing">Download CV <i class="fa fa-download"></i> </a></button>
+                  
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="pt-5">
+      <h3 class="subtitle__title mt-2 text-center">My Expertise</h3>
+      <div class="subtitle__line"></div>
+      <div class="container services__container mx-auto py-2">
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 mt-3 pb-4 text-center"
+        >
+          <div class="col">
+            <div class="card h-100 py-5 px-1">
+              <i class="fa-sharp fa-solid fa-pen-ruler fa-2xl pb-4"></i>
+              <div class="card-body">
+                <h5 class="card-title">DATA VISUALIZATION</h5>
+                <p class="card-text">
+                  Hands on Tableau, IBM Cognos, Power BI
+                  Qlik Sense helping to analyze data.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 py-5 px-1">
+              <i class="fa-solid fa-code fa-2xl pb-4"></i>
+              <div class="card-body">
+                <h5 class="card-title">SEM</h5>
+                <p class="card-text">
+                  Site speed and technical structure, payment gateways,
+                  informational page content helping to increase brand visibility.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 py-5 px-1">
+              <i class="fa-solid fa-chart-line fa-2xl pb-4"></i>
+              <div class="card-body">
+                <h5 class="card-title">GOOGLE ANALYTICS</h5>
+                <p class="card-text">
+                  Measuring your data, using metrics and dimensions,
+                  making custom reports, data exploration and analysis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 py-5 px-1">
+              <i class="fa-solid fa-gears fa-2xl pb-4"></i>
+              <div class="card-body">
+                <h5 class="card-title">CRM</h5>
+                <p class="card-text">
+                  Customer engagement, providing platform, measuring customer lifetime value.
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <h3 class="subtitle__title mt-2 text-center">Areas of Interest</h3>
+      <div class="subtitle__line"></div>
+      <div class="portfolio__container container my-4 pb-5">
+        <ul class="nav justify-content-center mb-5 mt-4" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active text-uppercase"
+              id="home-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true"
+              >All</button
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase" id="graphic-tab" data-bs-toggle="tab" data-bs-target="#graphic" type="button" role="tab" aria-controls="graphic" aria-selected="false">Marketing</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase"id="design-tab" data-bs-toggle="tab" data-bs-target="#design" type="button" role="tab" aria-controls="design" aria-selected="false">Management</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase" id="branding-tab" data-bs-toggle="tab" data-bs-target="#branding" type="button" role="tab" aria-controls="branding" aria-selected="false">Branding</button>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="all" role="tabpanel" aria-labelledby="all-tab">
+            <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-2 mb-4 pb-2"
+        >
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/one.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-1 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/2.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-2 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/tres.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-3 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/4.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-4 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/5.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-5 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/6.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-6 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="graphic" role="tabpanel" aria-labelledby="graphic-tab">
+            <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-2 mb-4 pb-2"
+        >
+          
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/2.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-2 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/tres.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-3 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/4.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-4 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/5.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-5 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/6.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-6 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="design" role="tabpanel" aria-labelledby="design-tab">
+            <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-2 mb-4 pb-2"
+        >
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/one.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-1 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+         
+          
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/4.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-4 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/5.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-5 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          
+            </div>
+          </div>
+          <div class="tab-pane" id="branding" role="tabpanel" aria-labelledby="branding-tab">
+            <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-2 mb-4 pb-2"
+        >
+          
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/2.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-2 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/6.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-6 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <h3 class="subtitle__title mt-0 text-center">Education</h3>
+      
+      <div class="counter__container py-5">
+        <div class="portfolio__container container py-2">
+          <div class="row row-cols-1 row-cols-md-4 g-4 mt-2 mb-2">
+            <div class="col">
+              <div class="card h-100 px-1 py-3 text-center">
+                <div class="icon__counter mb-3">
+                  
+                  
+                </div>
+                <h3 class="counter">PRIMARY SCHOOL</h3>
+                <h5 class="counter__desc text-capitalize">Vibgyor High, Mumbai</h5>
+                <h5 class="counter__desc text-capitalize">2005-2016</h5>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 px-1 py-3 text-center">
+                <div class="icon__counter mb-3">
+                 
+                </div>
+                <h3 class="counter">SECONDARY SCHOOL</h3>
+                <h5 class="counter__desc text-capitalize">Vibgyor High, Mumbai</h5>
+                <h5 class="counter__desc text-capitalize">2016-2018</h5>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 px-1 py-3 text-center">
+                <div class="icon__counter mb-3">
+                  
+                </div>
+                <h3 class="counter">SENIOR SECONDARY</h3>
+                <h5 class="counter__desc text-capitalize">Mithibai College, Mumbai</h5>
+                <h5 class="counter__desc text-capitalize">2018-2020</h5>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 px-1 py-3 text-center">
+                <div class="icon__counter mb-3">
+                 
+                </div>
+                <h3 class="counter">UNDERGRADUATION</h3>
+                <h5 class="counter__desc text-capitalize">CHRIST (Deemed to be University), Lavasa</h5>
+                <h5 class="counter__desc text-capitalize">2020-2023</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial">
+      <h3 class="subtitle__title mt-0 text-center">Experiences</h3>
+      <div class="subtitle__line"></div>
+      <div class="testimon__container container pb-5 mt-3">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide mb-3"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item slide__item active">
+              <img
+                src="./Assets/img/background.gif"
+                class="d-block w-100 slide__img"
+                alt="background image"
+              />
+              <div class="carousel-caption top-0 d-md-block">
+                <div class="row review__card g-0">
+                  <div class="col-9 col-md-3 card__test mx-auto">
+                    <div class="card h-100 bg-transparent">
+                      <img
+                        src="./Assets/img/1.1.png"
+                        class="d-block review__img rounded rounded-circle mx-auto my-auto py-4 py-md-0"
+                        alt="reviewer1"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-9 col-md-9 card__test mx-auto">
+                    <div class="card h-100 bg-transparent">
+                      <div class="card-body text-dark text-start">
+                        <h2 class="text-capitalize mb-2">Bajaj Healthcare Ltd- Marketing Analyst</h2>
+                        <span class="review__location"
+                          ><i class="fa-solid fa-location-dot"></i> Mumbai</span
+                        >
+                        <p class="review__text mx-auto mt-2">
+                          <i>
+                            A pharaceutical company driving into development, manufacturing,
+                            supply of amino acids, API's, for pharaceutical, nutraceuticals,
+                            and food industries globally.
+                            </i
+                          >
+                        </p>
+                        <span class="test__rate">
+                          
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item slide__item">
+              <img
+                src="./Assets/img/slider-01.jpg"
+                class="d-block w-100 slide__img"
+                alt="background image"
+              />
+              <div class="carousel-caption top-0 d-md-block">
+                <div class="row review__card g-0">
+                  <div class="col-9 col-md-3 card__test mx-auto">
+                    <div class="card h-100 bg-transparent">
+                      <img
+                        src="./Assets/img/three.jpg"
+                        class="d-block review__img rounded rounded-circle mx-auto my-auto py-4 py-md-0"
+                        alt="reviewer2"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-9 col-md-9 card__test mx-auto">
+                    <div class="card h-100 bg-transparent">
+                      <div class="card-body text-dark text-start">
+                        <h2 class="text-capitalize mb-2">Sunny Creation Pvt Ltd- Social Media Analyst</h2>
+                        <span class="review__location"
+                          ><i class="fa-solid fa-location-dot"></i> Mumbai</span
+                        >
+                        <p class="review__text mx-auto mt-2">
+                          <i>
+                            Mumbai based company dealing in manufacturing and trading 
+                            of CZ Jewelry and artificial gem stones. Engaging with customers 
+                            globally and providing highest quality final products.</i
+                          >
+                        </p>
+                        <span class="test__rate">
+                          
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="pt-5">
+      <h3 class="subtitle__title mt-2 text-center">Projects</h3>
+      <div class="subtitle__line"></div>
+
+      <div class="blog__container container mx-auto py-2">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-1 pb-5">
+          <div class="col card__blog">
+            <div class="card h-100">
+              <img
+                src="./Assets/img/1.jpg"
+                class="card-img-top"
+                alt="post-1 image"
+              />
+              <div class="card-body">
+                <p class="post__date">April, 2022</p>
+                <a href="/" class="card-title mt-3">Research Paper- CRM</a>
+                <p class="card-text my-3">
+                  Researched on Customer Relationship Management focusing on
+                  an advantage which is competitive in the telecommunication zone 
+                  by surveying the vital character of integrity.
+                </p>
+                <a href="https://drive.google.com/file/d/1lVROX-Ktpu1M8psjincLddg0D7TuKUc2/view?usp=sharing" class="read__more text-uppercase"
+                  >Read More <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col card__blog">
+            <div class="card h-100">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item card-img-top"
+                  width="100%"
+                  src="./Assets/img/img.jpg"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="card-body">
+                <p class="post__date">January, 2023</p>
+                <a href="/" class="card-title mt-3">Research Paper- Finance</a>
+                <p class="card-text my-3">
+                  Discussing on how do Sustainable Practices and Voluntary Disclosures 
+                  affect the Firm Financial Performance. Includes a review of literature  
+                  and an analysis based on the TPI dataset.
+                </p>
+                <a href="https://drive.google.com/file/d/1POfIcOGtOx_v2gjXNJv_SoTLAJKwHRFe/view?usp=sharing" class="read__more text-uppercase"
+                  >Read More <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col card__blog">
+            <div class="card h-100">
+              <img
+                src="./Assets/img/3.jpg"
+                class="card-img-top"
+                alt="post-3 image"
+              />
+              <div class="card-body">
+                <p class="post__date">July, 2021</p>
+                <a href="/" class="card-title mt-3">Industry Review Project</a>
+                <p class="card-text my-3">
+                  Analysis performed on Auto Ancillaries Industry. Scrutinized the  
+                  companies from their product profile, organizational structure, 
+                  strategies to their financial statements.
+                </p>
+                <a href="https://drive.google.com/file/d/1pePeOf9A7sV5zVPxldxkV9WHmx7Z5uFR/view?usp=sharing" class="read__more text-uppercase"
+                  >Read More <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h3 class="subtitle__title mt-2 text-center">Get in touch.</h3>
+      <div class="subtitle__line"></div>
+      <div class="container bg-white w-100 mt-4 py-2 px-2">
+        <div class="contact h-100">
+          <div class="contact__container">
+            <form action="" method="GET" class="contact__form mx-auto">
+              <div class="row">
+                <div class="col-12 col-md-6 mx-auto px-md-3">
+                  <input
+                    name="name"
+                    type="text"
+                    class="form__input mb-3 my-3"
+                    required="required"
+                    placeholder="Name"
+                    data-errormessage-value-missing="FirstName is required"
+                  />
+                </div>
+                <div class="col-12 col-md-6 mx-auto px-md-3">
+                  <input
+                    name="email"
+                    type="email"
+                    class="form__input mb-3 my-3"
+                    required="required"
+                    placeholder="Email"
+                    data-errormessage-value-missing="Valid email is required"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-12 mx-auto px-md-3">
+                  <input
+                    name="subject"
+                    type="text"
+                    class="form__input mb-3 my-3"
+                    required="required"
+                    placeholder="Subject"
+                    data-errormessage-value-missing="Subject is required"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12 col-md-12 mx-auto px-md-3">
+                  <textarea
+                    name="text_msg"
+                    class="form__input my-3"
+                    rows="5"
+                    required="required"
+                    placeholder="Message for me"
+                    data-errormessage-value-missing="Please, Leave us a message"
+                  ></textarea>
+                </div>
+              </div>
+              <button
+                class="form__button my-4 p-3 d-flex justify-content-center align-items-center"
+              >
+                <a href="mailto:gunjanbajaj2002@gmail.com" class="text-uppercase"
+                  >Send Message</a
+                >
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer__container text-center">
+        <div class="py-3">
+          <a
+            href="https://www.facebook.com/gunjan.bajaj.1884"
+            target="_blank"
+            style="font-family: FontAwesome"
+            class="social__icon me-2"
+          >
+            <i class="fa-brands fa-facebook-f fa-lg px-2 py-2"></i
+          ></a>
+          <a href="https://twitter.com/B47734860Bajaj" target="_blank" class="social__icon me-2">
+            <i class="fa-brands fa-twitter fa-lg px-2 py-2"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/gunjan-bajaj-10510a1b3/" target="_blank" class="social__icon me-2">
+            <i class="fa-brands fa-linkedin fa-lg px-2 py-2"></i
+          ></a>
+          <a href="https://github.com/bajajgunjan" target="_blank" class="social__icon me-2">
+            <i class="fa-brands fa-github fa-lg px-2 py-2"></i
+          ></a>
+        </div>
+        <p class="footer__copyright">
+          Portfolio @ Gunjan Bajaj 2023<span><a href="/"></a></span>
+          
+        </p>
+      </div>
+    </footer>
+    
+    <!-------------------------- JS text.js extension script ----------------------->
+    <script>
+      var typing = new Typed(".home__desc", {
+        strings: [
+          "Professional Business Analyst &nbsp;",
+          "Professional Digital Marketeer &nbsp;",
+        ],
+        typeSpeed: 100,
+        backSpeed: 40,
+        loop: true,
+      });
+    </script>
+
+    <!----------------------------- Bootstrap script ------------------------------->
+    
+    <script src="./Assets/JS/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+
